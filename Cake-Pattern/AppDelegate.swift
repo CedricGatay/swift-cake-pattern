@@ -7,6 +7,7 @@
 //
 
 import UIKit
+let context  = AppContext()
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
