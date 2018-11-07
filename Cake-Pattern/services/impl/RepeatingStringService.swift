@@ -1,4 +1,4 @@
-struct RepeatingStringComponent: StringComponent{
+struct RepeatingStringService: StringService{
     let constant: String
     let count: Int
     

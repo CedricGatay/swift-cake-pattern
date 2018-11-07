@@ -1,3 +1,3 @@
-protocol NumberComponent{
+protocol NumberService{
     var value: Int { get }
 }

@@ -1,4 +1,4 @@
-struct JoiningStringComponent: StringComponent{
+struct JoiningStringService: StringService{
     let count: Int
     
     func bail() -> String{

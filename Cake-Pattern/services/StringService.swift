@@ -1,3 +1,3 @@
-protocol StringComponent{
+protocol StringService{
     func bail() -> String
 }

@@ -1,3 +1,3 @@
-protocol ConstantComponent{
+protocol ConstantService{
     var `default` : String { get }
 }
