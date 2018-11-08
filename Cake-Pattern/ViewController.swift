@@ -10,7 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     lazy var button: UIButton = {
-        let button = UIButton(frame: CGRect(x: self.view.frame.width / 4, y: UIApplication.shared.statusBarFrame.height, width: self.view.frame.width / 2, height: 64))
+        let button = UIButton(frame: CGRect(x: self.view.frame.width / 4,
+                                            y: UIApplication.shared.statusBarFrame.height,
+                                            width: self.view.frame.width / 2,
+                                            height: 64))
         button.setTitle("🎲 🎲 🎲", for: .normal)
         button.addTarget(self, action: #selector(again(_:)), for: .touchUpInside)
         return button
